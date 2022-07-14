@@ -24,8 +24,6 @@ rules:
       - watch
   - apiGroups:
     - extensions
-    resources:
-    - ingresses/status
     verbs:
     - update
 ---
