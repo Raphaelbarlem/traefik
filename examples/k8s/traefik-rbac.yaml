@@ -6,23 +6,23 @@ metadata:
 rules:
   - apiGroups:
       - ""
-    resources:
+   - resources:
       - services
       - endpoints
       - secrets
-    verbs:
+   - verbs:
       - get
       - list
       - watch
   - apiGroups:
       - extensions
-    resources:
+  - resources:
       - ingresses
-    verbs:
+  - verbs:
       - get
       - list
       - watch
   - apiGroups:
     - extensions
-    verbs:
+    #verbs:
     - update
