@@ -26,4 +26,3 @@ rules:
     - extensions
     verbs:
     - update
----
